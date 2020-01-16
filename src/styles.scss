@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700&display=swap');
+@import "assets/styles/index";
+
+* {
+    font-family: 'Merienda', sans-serif;
+
+  &::selection {
+    background-color: orangered;
+    color: #FFF;
+  }
+}
+
+body {
+  height: 100vh;
+  font-size: 20px;
+  font-weight:400;
+}
+
+p, span {
+    color:$black;
+  font-size: 20px;
+  font-weight:400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $black;
+  font-weight: 700;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(238, 146, 118);
+  outline: 1px solid slategrey;
+}
+
+html {
+  height: 101%;
+  margin-bottom: 0.01em;
+}
+
+body {
+  overflow: auto;
+}
+
+html,
+body {
+  overflow: initial !important;
+}
+
